@@ -2,7 +2,7 @@
 
 Welcome to **PythonMiniProjects**! This repo is a collection of small, fun, and useful Python projects.  
 
-## 🚀 Project List  
+## Project List  
 
 Here are some of the projects you'll find: 
 
@@ -12,7 +12,7 @@ Here are some of the projects you'll find:
 - **PDF Merger** – Combine multiple PDFs into one.  
 - **Image Converter** – Convert images between different formats.  
 
-More projects coming soon! 🚀  
+More projects coming soon! 
 
 ## How to Use  
 
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ## Want to Contribute?  
 
-We’d love your help! To add a project:  
+To add a project:  
 1. **Fork** this repo.  
 2. **Create** a new folder for your project.  
 3. **Update** this README with a short description.  
