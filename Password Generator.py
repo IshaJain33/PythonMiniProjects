@@ -6,18 +6,14 @@ def generate_password(length=12):
     lowercase_letters = string.ascii_lowercase  
     digits = string.digits                      
     special_chars = string.punctuation          
-
     all_characters = uppercase_letters + lowercase_letters + digits + special_chars
-
     password = (
         random.choice(uppercase_letters) +
         random.choice(lowercase_letters) +
         random.choice(digits) +
         random.choice(special_chars)
     )
-
     password += ''.join(random.choice(all_characters) for _ in range(length - 4))
-
     password = ''.join(random.sample(password, len(password)))
 
     return password
