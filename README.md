@@ -1,6 +1,6 @@
 # Python Mini Projects 
 
-Welcome to **PythonMiniProjects**! This repo is a collection of small, fun, and useful Python projects.  
+Welcome to **PythonMiniProjects**. This repo is a collection of small, fun, and useful Python projects.  
 
 ## Project List  
 
