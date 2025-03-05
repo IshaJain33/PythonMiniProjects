@@ -16,13 +16,11 @@ def scrape_website(url):
         
         # Extract all links (<a> tags)
         links = soup.find_all("a", href=True)
-        
         print("\nExtracted Links from the Page:")
         for idx, link in enumerate(links[:10], 1):  # Display only first 10 links
             print(f"{idx}. {link['href']}")
-    
     else:
         print("Failed to retrieve the webpage. Check the URL or your connection.")
-website_url = input("Enter the website URL to scrape: ")
 
+website_url = input("Enter the website URL to scrape: ")
 scrape_website(website_url)
