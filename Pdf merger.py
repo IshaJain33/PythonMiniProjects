@@ -10,5 +10,6 @@ def merge_pdfs(pdf_list, output_filename):
     merger.close()
     print(f"Merged PDF saved as: {output_filename}")
 
+
 pdf_files = ["file1.pdf", "file2.pdf", "file3.pdf"]  
 merge_pdfs(pdf_files, "merged_output.pdf")
