@@ -1,3 +1,6 @@
+'''install requests module (if not installed)
+pip install requests'''
+
 import requests
 
 def get_exchange_rate(base, target):
@@ -8,7 +11,6 @@ def get_exchange_rate(base, target):
 base_currency = input("Enter base currency (e.g., USD): ").upper()
 target_currency = input("Enter target currency (e.g., INR): ").upper()
 amount = float(input("Enter amount: "))
-
 rate = get_exchange_rate(base_currency, target_currency)
 if rate != "Invalid Currency":
     converted_amount = amount * rate
