@@ -10,7 +10,8 @@ Here are some of the projects you'll find:
 - **Password Generator** – Generate strong, random passwords.  
 - **Web Scraper** – Extract data from websites with BeautifulSoup.  
 - **PDF Merger** – Combine multiple PDFs into one.  
-- **Image Converter** – Convert images between different formats.  
+- **Image Converter** – Convert images between different formats.
+- **Real-Time Currency Converter** - fetches live exchange rates from an API and converts a given amount from one currency to another.
 
 More projects coming soon! 
 
