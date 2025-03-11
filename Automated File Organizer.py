@@ -1,13 +1,12 @@
 import os
 import shutil
 
-source_folder = "C:/Users/User/Downloads"
+source_folder = "C:/Users/User/pythonprom"   #specify your own path
 destinations = {
     "Images": [".png", ".jpg", ".jpeg", ".gif"],
     "Documents": [".pdf", ".docx", ".txt"],
     "Videos": [".mp4", ".mkv"],
 }
-
 for file in os.listdir(source_folder):
     file_path = os.path.join(source_folder, file)
     if os.path.isfile(file_path):
