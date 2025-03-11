@@ -12,6 +12,7 @@ Here are some of the projects you'll find:
 - **PDF Merger** – Combine multiple PDFs into one.  
 - **Image Converter** – Convert images between different formats.
 - **Real-Time Currency Converter** - fetches live exchange rates from an API and converts a given amount from one currency to another.
+- **Automated File Organizer** - Sorts files into folders based on extensions.
 
 More projects coming soon! 
 
