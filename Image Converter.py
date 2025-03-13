@@ -12,4 +12,5 @@ def convert_image(input_path, output_path, output_format):
         print(f"Image converted successfully and saved as {output_path}")
     except Exception as e:
         print(f"Error: {e}")
+        
 convert_image("pic.jpg", "pht.png", "PNG")
