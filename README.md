@@ -14,8 +14,6 @@ Here are some of the projects you'll find:
 - **Real-Time Currency Converter** - fetches live exchange rates from an API and converts a given amount from one currency to another.
 - **Automated File Organizer** - Sorts files into folders based on extensions.
 - **Typing Speed Test** - Measures how fast you can type.
-  
-More projects coming soon! 
 
 ## How to Use  
 
