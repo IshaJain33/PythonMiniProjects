@@ -11,7 +11,6 @@ def get_winner(user, computer):
         return "computer"
 
 choices = ["snake", "water", "gun"]
-
 user_score = 0
 computer_score = 0
 
@@ -29,7 +28,6 @@ while True:
 
     computer_choice = random.choice(choices)
     print(f"Computer chose: {computer_choice}")
-
     result = get_winner(user_choice, computer_choice)
     
     if result == "user":
@@ -43,7 +41,6 @@ while True:
 
     print(f"Score: You - {user_score}, Computer - {computer_score}")
 
-# Final Result
 print("\nGame Over!")
 if user_score > computer_score:
     print(f"You won the game! Final Score: You - {user_score}, Computer - {computer_score}")
