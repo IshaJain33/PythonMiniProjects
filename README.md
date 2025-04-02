@@ -5,7 +5,6 @@ Welcome to **PythonMiniProjects**. This repo is a collection of small, fun, and 
 ## Project List  
 
 Here are some of the projects you'll find: 
-
 - **Snake, Water, and Gun** - A simple command-line game.  
 - **Password Generator** – Generate strong, random passwords.  
 - **Web Scraper** – Extract data from websites with BeautifulSoup.  
